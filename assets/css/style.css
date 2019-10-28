@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(205, 214, 214);
+}
+
+#header-link{
+    font-size: 30px;
+    color:  rgb(43, 164, 180);
+   margin-left: 70px;
+    display: inline-block;
+}
+
+#name{
+    float: left;
+    font-size: 30px;
+    color:  rgb(43, 164, 180);
+}
+
+
+
+nav ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 200px;
+    padding-top: 23px;
+    position: relative;
+  }
+
+  h1{
+    color: rgb(43, 164, 180);
+}
+
+#bio-image{
+    position: relative;
+  left: 0px;
+  width: 300px;
+    padding: 10px;
+}
+
+
+
+p{
+    color: rgb(80, 84, 85);
+    
+}
+
+
+
