@@ -37,7 +37,7 @@ nav li {
 #bio-image{
     position: relative;
   left: 0px;
-  width: 300px;
+  width: 250px;
     padding: 10px;
 }
 
@@ -48,5 +48,53 @@ p{
     
 }
 
+.wrapper {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 40px auto;
+  }
+
+  @media screen and (max-width: 980px) {
+    body {
+      background-color: rgb(95, 163, 88);
+
+    }
+    /* The wrapper's width will be 600px */
+    .wrapper {
+        width: 920px;
+    }
+
+}
+
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: rgb(158, 167, 80);
+
+    }
+    /* The wrapper's width will be 600px */
+    .wrapper {
+        width: 720px;
+    }
+}
+
+    @media screen and (max-width: 640px) {
+        body {
+          background-color: rgb(150, 105, 144);
+    
+        }
+        nav ul {
+            float: left;
+            width: 100%;
+          }
+        /* The wrapper's width will be 600px */
+        .wrapper {
+            width: 600px;
+        }
+  
+    }
+
+   
 
 
