@@ -84,6 +84,10 @@ p{
 
 #projects a{
   color: blue;
+} 
+
+#details p a{
+  color: blue;
 }
 
 .wrapper {
