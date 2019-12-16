@@ -1,19 +1,27 @@
 body{
-    background-color: rgb(205, 214, 214);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+
+
 #header-link{
-    font-size: 30px;
-    color:  rgb(43, 164, 180);
-   margin-left: 70px;
+    font-size: 25px;
+    color:  blue;
+     margin-left: 70px;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 #name{
     float: left;
     font-size: 30px;
-    color:  rgb(43, 164, 180);
+    color:  blue;
+    text-transform: uppercase;
 }
+
+
 
 
 
@@ -24,14 +32,22 @@ nav ul{
     list-style: none;
 }
 nav li {
+  
     display: inline-block;
-    margin-left: 200px;
-    padding-top: 23px;
-    position: relative;
+    margin: 0;
+    /* margin-left: 200px; */
+    /* padding-top: 23px; */
+    /* position: relative; */
+    padding: 0 20px 0 20px;
   }
 
   h1{
-    color: rgb(43, 164, 180);
+    color:  blue;
+}
+
+#github-image, #linkedIn-image{
+  width: 40px;
+  height: 40px;
 }
 
 #bio-image{
@@ -41,11 +57,33 @@ nav li {
     padding: 10px;
 }
 
+#my-details {
+  color:  blue;
+}
+
+#github-link, #linkedIn-link{
+  color:  black;
+} 
+
+
 
 
 p{
-    color: rgb(80, 84, 85);
+    color: black;
     
+}
+
+#project-images{
+  width: 800px;
+  height: 500px;
+}
+
+#projects h4{
+  color: blue;
+}
+
+#projects a{
+  color: blue;
 }
 
 .wrapper {
@@ -58,7 +96,7 @@ p{
 
   @media screen and (max-width: 980px) {
     body {
-      background-color: rgb(95, 163, 88);
+      /* background-color: rgb(76, 216, 61); */
 
     }
     /* The wrapper's width will be 600px */
@@ -70,7 +108,7 @@ p{
 
   @media screen and (max-width: 768px) {
     body {
-      background-color: rgb(158, 167, 80);
+      /* background-color: rgb(148, 160, 45); */
 
     }
     /* The wrapper's width will be 600px */
@@ -81,7 +119,7 @@ p{
 
     @media screen and (max-width: 640px) {
         body {
-          background-color: rgb(150, 105, 144);
+          /* background-color: rgb(187, 82, 173); */
     
         }
         nav ul {
