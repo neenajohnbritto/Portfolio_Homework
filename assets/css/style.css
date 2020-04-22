@@ -2,6 +2,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: burlywood;
 }
 
 
@@ -42,7 +43,8 @@ nav li {
   }
 
   h1{
-    color:  blue;
+    color:  darkred;
+    font-family: "Segoe Print";
 }
 
 #github-image, #linkedIn-image{
@@ -58,7 +60,8 @@ nav li {
 }
 
 #my-details {
-  color:  blue;
+  color:  darkred;
+  font-family: "Rockwell";
 }
 
 #github-link, #linkedIn-link{
@@ -73,18 +76,29 @@ p{
     
 }
 
+#description{
+  color: crimson ;
+  font-family: "Franklin Gothic Medium";
+}
+
 #project-images{
   width: 800px;
   height: 500px;
 }
 
 #projects h4{
-  color: blue;
+  color:  darkred;
+  font-family: "Rockwell";
 }
 
-#projects a{
-  color: blue;
+#project-links{
+  color: crimson ;
+  font-family: "Euphemia";
 } 
+
+#github-links{
+  color: blue;
+}
 
 #details p a{
   color: blue;
